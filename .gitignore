@@ -426,3 +426,7 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+# Local NuGet source (pinned packages for the 'local' source in nuget.config)
+!packages/*.nupkg
+
